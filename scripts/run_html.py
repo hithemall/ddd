@@ -10,7 +10,7 @@
 #导包
 import time
 import  unittest
-from tools.HTMLTestRunner import HTMLTestRunner
+from HTMLTestRunner import HTMLTestRunner
 
 #定义 测试套件
 suite = unittest.defaultTestLoader.discover("../case",pattern="test*.py")
