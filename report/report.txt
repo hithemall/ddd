@@ -1,0 +1,10 @@
+test01 (test01_skip.Test01) ... skipped '版本大于25，跳过此用例！'
+test02 (test01_skip.Test01) ... skipped '版本大于25，跳过此用例！'
+test01 (test02.Test01) ... ok
+test02 (test02.Test01) ... ok
+test03 (test02.Test01) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+OK (skipped=2)
