@@ -22,6 +22,6 @@ action.move_to_element(driver.find_element_by_css_selector("[class='vMiddle inli
 sleep(2)
 driver.find_element_by_css_selector("[class='inlineBlock vMiddle fBlod c-333 signOut']").click()
 
-#driver.quit()
+driver.quit()
 
 
