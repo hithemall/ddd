@@ -24,4 +24,4 @@ report_dir = "./report/tthh.html"
 with open(report_dir,"wb") as f:
     HTMLTestRunner(stream=f,verbosity=2,title="XX项目自动化测试报告",description="操作系统 win7").run(suite)
 
-
+print("ddd")
